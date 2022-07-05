@@ -11,7 +11,7 @@ An environment where MATLAB, CPLEX, and COBRA Toolbox can run is required.
 Run the test code for gDel_minRN
 The test code is run by the following command:
 
-  test()
+    test()
 
 “test()” employs “initCobraToolbox” to initialize the COBRA Toolbox environment, loads a MATLAB matfile “e_coli_core.mat” containing a core metabolic model of E.coli, and employs “gDel_minRN” to obtain the gene deletion strategy for growth coupling of succinate.
 
